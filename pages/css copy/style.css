@@ -886,3 +886,6 @@ h2 {
 form p {
   text-align: left;
 }
+img{
+  overflow: auto !important;
+}
