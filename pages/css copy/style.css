@@ -835,7 +835,7 @@ h2 {
   line-height: 22px;
 }
 
-input, textarea {
+.form-container input, textarea {
   background-color: #eee;
   border: none;
   padding: 12px 15px;
@@ -844,11 +844,11 @@ input, textarea {
   font-size: 0.8rem;
 }
 
-input:focus, textarea:focus {
+.form-container input:focus, textarea:focus {
   outline: 1px solid #cf0000;
 }
 
-button {
+.form-container button {
   border-radius: 20px;
   border: 1px solid #cf0000;
   background-color: #cf0000;
@@ -862,7 +862,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.form-container button:hover {
   opacity: 0.7;
 }
 
@@ -883,4 +883,8 @@ button:hover {
 
 form p {
   text-align: left;
+}
+input , textarea{
+  background-color: white !important;
+  border-radius: 10px;
 }

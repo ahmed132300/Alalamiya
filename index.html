@@ -223,13 +223,22 @@
   </div>
   <div class="subscribe-container">
     <h3></h3>
-    <input type="email" id="email" placeholder="Enter your email">
-    <button onclick="subscribe()">Subscribe</button>
+    <form
+    action="https://formspree.io/f/xrbpzzrb"
+    method="POST"
+    style="width: 100%; display: flex;;"
+  >
+    <label style="width: 80%;">
+      <input type="email" name="email" placeholder="Enter Your Email" id="email" style="width: 80%;">
+    </label>
+    <button type="submit">Send</button>
+  </form>
 </div>
 </div>
 <br/>
     </section>
   </main>
+<!-- modify this form HTML and place wherever you want your form -->
 
   <!--==========================
     Footer

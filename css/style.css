@@ -4,6 +4,12 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
+body, html {
+  overflow: auto; /* Make sure scrolling is allowed */
+}
+img {
+  pointer-events: auto; /* Ensure images are interactive */
+}
 
 a {
   color: #eb0000;
