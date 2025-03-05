@@ -245,7 +245,8 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition-property:none;
+  position: relative !important;
+  overflow: auto !important;
 }
 
 /*--------------------------------------------------------------
