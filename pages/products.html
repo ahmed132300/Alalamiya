@@ -9,8 +9,9 @@
   <meta content="Alalamiya Food Industries" name="description">
 
   <!-- Favicons -->
-  <link href="../img/fav.jpg" rel="icon">
-  <link href="../img/fav.jpg" rel="apple-touch-icon">
+  <link href="../img/fav.webp" rel="icon">
+  <link href="../img/fav.webp" rel="apple-touch-icon">
+  <link rel="dns-prefetch" href="https://alalamiya.online">
 
     <!-- Google Fonts -->
     <link
@@ -29,7 +30,7 @@
     <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="./css copy 2/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css copy 2/style.css" media="print" onload="this.onload=null;this.media='all';">
 </head>
 
 <body id="body">
@@ -42,7 +43,7 @@
             <div class="contact-info float-left">
                 <i class="fa fa-envelope-o"></i> <a
                 href="mailto:info@alalamiya.online">info@alalamiya.online</a>
-                <i class="fa fa-phone"></i> +252 xxxxxxxx / +252 xxxxxxxx
+                <i class="fa fa-phone"></i> +252 63 6011177 / +252 63 8000375
             </div>
             <div class="social-links float-right">
                 <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
@@ -61,7 +62,7 @@
         <div class="container">
 
             <div id="logo" class="pull-left">
-                <h1><a href="../index.html" class="scrollto" style="color: red;"><img src="../img/logo.png" alt=""></a></h1>
+                <h1><a href="../index.html" class="scrollto" style="color: red;"><img loading="lazy" src="../img/logo.webp" alt=""></a></h1>
           </div>
 
             <nav id="nav-menu-container">
@@ -80,7 +81,9 @@
   ============================-->
     <section id="intro">
         <div id="intro-carousel" class="owl-carousel">
-            <div class="item" style="background-image: url('./pro.webp'); ">
+            <div class="item" style="background-image: url('../img/our.webp'); @media (max-width:900px) {
+                background-image: url('../img/our.webp');
+            }">
             </div>
 
     </section><!-- #intro -->
@@ -88,11 +91,12 @@
     </main>
     <section id="catogries">
         <div class="container">
-            <div class="catogries" id="cat">
-                <div class="catogry">
+      <a href="./Tomato-Products.html">     <div class="catogries" id="cat">
+                 <div class="catogry">
                    <a href="./Tomato-Products.html" style="color: black;"><h2 >Tomato Products</h2></a> 
                 </div>
-            </div>
+                </div>
+                </a>
         </div>
 
     </section>

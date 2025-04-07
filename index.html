@@ -9,8 +9,9 @@
   <meta content="Alalamiya Food Industries" name="description">
 
   <!-- Favicons -->
-  <link href="img/fav.jpg" rel="icon">
-  <link href="img/fav.jpg" rel="apple-touch-icon">
+  <link href="img/fav.webp" rel="icon">
+  <link href="img/fav.webp" rel="apple-touch-icon">
+  <link rel="dns-prefetch" href="https://alalamiya.online">
 
   <!-- Google Fonts -->
   <link
@@ -29,7 +30,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" media="print" onload="this.onload=null;this.media='all';">
 </head>
 
 <body id="body">
@@ -40,16 +41,16 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a
+        <i class="fa fa-envelope-o"></i> <a aria-label="link" 
           href="mailto:info@alalamiya.online">info@alalamiya.online</a>
-        <i class="fa fa-phone"></i> +252 xxxxxxxx / +252 xxxxxxxx
+        <i class="fa fa-phone"></i> +252 63 6011177 / +252 63 8000375
       </div>
       <div class="social-links float-right">
-        <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <!-- <a aria-label="link"  href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+        <a aria-label="link"  href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a aria-label="link"  href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a aria-label="link"  href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a aria-label="link"  href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </section>
@@ -61,15 +62,15 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="./index.html" class="scrollto" style="color: red;"><img src="./img/logo.png" alt=""></a></h1>
+        <h1><a aria-label="link"  href="./index.html" class="scrollto" style="color: red;"><img loading="lazy" loading="lazy" loading="lazy" src="./img/logo.webp" alt=""></a></h1>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#body">Home</a></li>
-          <li><a href="./pages/about-us.html">About Us</a></li>
-          <li><a href="./pages/contact-us.html">Contact</a></li>
-          <li><a href="./pages/products.html">Products</a></li>
+          <li class="menu-active"><a aria-label="link"  href="#body">Home</a></li>
+          <li><a aria-label="link"  href="./pages/about-us.html">About Us</a></li>
+          <li><a aria-label="link"  href="./pages/contact-us.html">Contact</a></li>
+          <li><a aria-label="link"  href="./pages/products.html">Products</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -80,16 +81,16 @@
   ============================-->
   <section id="intro">
     <div id="intro-carousel" class="owl-carousel" style="object-fit: auto;">
-      <div class="item" style="background-image: url('./img/1.jpg');"></div>
-      <div class="item" style="background-image: url('./img/2.jpg');"></div>
-      <div class="item" style="background-image: url('./img/3.jpg');"></div>
-      <div class="item" style="background-image: url('./img/4.jpg');"></div>
-      <div class="item" style="background-image: url('./img/5.jpg');"></div>
-      <div class="item" style="background-image: url('./img/6.jpg');"></div>
-      <div class="item" style="background-image: url('./img/7.jpg');"></div>
-      <div class="item" style="background-image: url('./img/8.jpg');"></div>
-      <div class="item" style="background-image: url('./img/9.jpg');"></div>
-      <div class="item" style="background-image: url('./img/10.jpg');"></div>
+      <!-- <div class="item" style="background-image: url('./img/1.webp');"></div> -->
+      <div class="item" style="background-image: url('./img/2.webp');"></div>
+      <div class="item" style="background-image: url('./img/3.webp');"></div>
+      <div class="item" style="background-image: url('./img/4.webp');"></div>
+      <div class="item" style="background-image: url('./img/5.webp');"></div>
+      <div class="item" style="background-image: url('./img/6.webp');"></div>
+      <div class="item" style="background-image: url('./img/7.webp');"></div>
+      <div class="item" style="background-image: url('./img/8.webp');"></div>
+      <div class="item" style="background-image: url('./img/9.webp');"></div>
+      <div class="item" style="background-image: url('./img/10.webp');"></div>
     </div>
 
   </section><!-- #intro -->
@@ -103,7 +104,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="./img/logo-white.jpg" alt="">
+            <img loading="lazy" loading="lazy" src="./img/logo-white.webp" alt="">
           </div>
           <div class="col-lg-6 content">
             <div class="section-header">
@@ -139,7 +140,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Video</h2>
-          <video src="./img/alal.mp4" class="alal" controls></video>
+          <video src="img/alal.mp4" class="alal" controls></video>
         </div>
       </div>
     </section><!-- #call-to-action -->
@@ -156,55 +157,55 @@
         <div class="slider-container">
           <div class="slider" id="slider">
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 1">
               <h3>John Doe</h3>
               <p>Software Engineer</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 2">
               <h3>Jane Smith</h3>
               <p>Project Manager</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 3">
               <h3>Michael Brown</h3>
               <p>UI/UX Designer</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 1">
               <h3>John Doe</h3>
               <p>Software Engineer</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 2">
               <h3>Jane Smith</h3>
               <p>Project Manager</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 3">
               <h3>Michael Brown</h3>
               <p>UI/UX Designer</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 1">
               <h3>John Doe</h3>
               <p>Software Engineer</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 2">
               <h3>Jane Smith</h3>
               <p>Project Manager</p>
             </div>
             <div class="slide">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
+              <img loading="lazy" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtF4VdOl8_m-1FayEemKpgZvDuvgHOqAhFQ&s"
                 alt="Employee 3">
               <h3>Michael Brown</h3>
               <p>UI/UX Designer</p>
@@ -249,12 +250,12 @@
         &copy; Copyright <strong>Alalamiya</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="#" style="font-family:cursive; cursor: pointer;; color: red;">Ahmed Elsayed</a>
+        Designed by <a aria-label="link" href="#" style="font-family:cursive; cursor: pointer; color: red;">Ahmed Elsayed</a>
       </div>
     </div>
   </footer><!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a aria-label="link"  href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
